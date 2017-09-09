@@ -15,3 +15,5 @@ board[0].splice(1,1,'1');
 board[2].splice(2,1,'B');
 
 printBoard(board);
+
+console.log("whats up")
