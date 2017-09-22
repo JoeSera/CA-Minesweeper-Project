@@ -76,7 +76,7 @@ class Board {
     console.log(this._playerBoard.map(row => row.join(' | ')).join('\n'));
   }
 
-  generatePlayerBoard(numberOfRows, numberOfColumns){
+  static generatePlayerBoard(numberOfRows, numberOfColumns){
     let board = [];
     for (let i = 0; i<numberOfRows; i++){
       let row = [];
